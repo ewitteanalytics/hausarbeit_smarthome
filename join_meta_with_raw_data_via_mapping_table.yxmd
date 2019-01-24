@@ -1,0 +1,398 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2018.4">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="174" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">C:\Users\Ewen Witte\Downloads\raw_mapping.csv</File>
+          <FormatSpecificOptions>
+            <CodePage>28592</CodePage>
+            <Delimeter>,</Delimeter>
+            <IgnoreErrors>False</IgnoreErrors>
+            <FieldLen>254</FieldLen>
+            <AllowShareWrite>False</AllowShareWrite>
+            <HeaderRow>False</HeaderRow>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>raw_mapping.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Field_1" size="254" source="File: C:\Users\Ewen Witte\Downloads\raw_mapping.csv" type="V_WString" />
+            <Field name="Field_2" size="254" source="File: C:\Users\Ewen Witte\Downloads\raw_mapping.csv" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="174" y="234" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">C:\Users\Ewen Witte\Downloads\meta_data+timestamp.csv</File>
+          <FormatSpecificOptions>
+            <CodePage>28591</CodePage>
+            <Delimeter>,</Delimeter>
+            <IgnoreErrors>False</IgnoreErrors>
+            <FieldLen>254</FieldLen>
+            <AllowShareWrite>False</AllowShareWrite>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>meta_data+timestamp.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="meta_data_id" size="254" source="File: C:\Users\Ewen Witte\Downloads\meta_data+timestamp.csv" type="V_WString" />
+            <Field name="IoT-HW-ID:" size="254" source="File: C:\Users\Ewen Witte\Downloads\meta_data+timestamp.csv" type="V_WString" />
+            <Field name="Raum betreten:" size="254" source="File: C:\Users\Ewen Witte\Downloads\meta_data+timestamp.csv" type="V_WString" />
+            <Field name="Personen imRaum:" size="254" source="File: C:\Users\Ewen Witte\Downloads\meta_data+timestamp.csv" type="V_WString" />
+            <Field name="Fenster geöffnet:" size="254" source="File: C:\Users\Ewen Witte\Downloads\meta_data+timestamp.csv" type="V_WString" />
+            <Field name="Tür geöffnet:" size="254" source="File: C:\Users\Ewen Witte\Downloads\meta_data+timestamp.csv" type="V_WString" />
+            <Field name="Heizung an:" size="254" source="File: C:\Users\Ewen Witte\Downloads\meta_data+timestamp.csv" type="V_WString" />
+            <Field name="Fernseher an:" size="254" source="File: C:\Users\Ewen Witte\Downloads\meta_data+timestamp.csv" type="V_WString" />
+            <Field name="PC an:" size="254" source="File: C:\Users\Ewen Witte\Downloads\meta_data+timestamp.csv" type="V_WString" />
+            <Field name="timestamp" size="254" source="File: C:\Users\Ewen Witte\Downloads\meta_data+timestamp.csv" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="174" y="342" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">C:\Users\Ewen Witte\Downloads\raw_data+timestamp.csv</File>
+          <FormatSpecificOptions>
+            <CodePage>28591</CodePage>
+            <Delimeter>,</Delimeter>
+            <IgnoreErrors>False</IgnoreErrors>
+            <FieldLen>254</FieldLen>
+            <AllowShareWrite>False</AllowShareWrite>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>raw_data+timestamp.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="raw_data_id" size="254" source="File: C:\Users\Ewen Witte\Downloads\raw_data+timestamp.csv" type="V_WString" />
+            <Field name="IoT-HW-ID:" size="254" source="File: C:\Users\Ewen Witte\Downloads\raw_data+timestamp.csv" type="V_WString" />
+            <Field name="Temperature:" size="254" source="File: C:\Users\Ewen Witte\Downloads\raw_data+timestamp.csv" type="V_WString" />
+            <Field name="Humidity:" size="254" source="File: C:\Users\Ewen Witte\Downloads\raw_data+timestamp.csv" type="V_WString" />
+            <Field name="timestamp" size="254" source="File: C:\Users\Ewen Witte\Downloads\raw_data+timestamp.csv" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="450" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="Field_1" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="meta_data_id" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="714" y="270" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="Field_2" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="raw_data_id" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Right_IoT-HW-ID:" selected="True" rename="Right_IoT-HW-ID:" input="Right_" />
+                <SelectField field="Right_timestamp" selected="True" rename="Right_timestamp" input="Right_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="906" y="270" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="True" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="raw_data_id" selected="True" />
+            <SelectField field="Field_1" selected="False" />
+            <SelectField field="Field_2" selected="False" />
+            <SelectField field="meta_data_id" selected="False" />
+            <SelectField field="IoT-HW-ID:" selected="False" />
+            <SelectField field="Raum betreten:" selected="False" />
+            <SelectField field="Personen imRaum:" selected="True" />
+            <SelectField field="Fenster geöffnet:" selected="False" />
+            <SelectField field="Tür geöffnet:" selected="False" />
+            <SelectField field="Heizung an:" selected="False" />
+            <SelectField field="Fernseher an:" selected="False" />
+            <SelectField field="PC an:" selected="False" />
+            <SelectField field="timestamp" selected="False" />
+            <SelectField field="Right_IoT-HW-ID:" selected="False" />
+            <SelectField field="Temperature:" selected="True" />
+            <SelectField field="Humidity:" selected="True" />
+            <SelectField field="Right_timestamp" selected="False" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+        <Position x="822" y="270" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Fields>
+            <Field field="Field_1" selected="True" />
+            <Field field="Field_2" selected="True" />
+            <Field field="meta_data_id" selected="True" />
+            <Field field="IoT-HW-ID:" selected="True" />
+            <Field field="Raum betreten:" selected="True" />
+            <Field field="Personen imRaum:" selected="True" />
+            <Field field="Fenster geöffnet:" selected="True" />
+            <Field field="Tür geöffnet:" selected="True" />
+            <Field field="Heizung an:" selected="True" />
+            <Field field="Fernseher an:" selected="True" />
+            <Field field="PC an:" selected="True" />
+            <Field field="timestamp" selected="True" />
+            <Field field="raw_data_id" selected="True" />
+            <Field field="Right_IoT-HW-ID:" selected="True" />
+            <Field field="Temperature:" selected="True" />
+            <Field field="Humidity:" selected="True" />
+            <Field field="Right_timestamp" selected="True" />
+            <Field field="*Unknown" selected="True" />
+          </Fields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Field_1" source="File: C:\Users\Ewen Witte\Downloads\raw_mapping.csv" type="Byte" />
+            <Field name="Field_2" source="File: C:\Users\Ewen Witte\Downloads\raw_mapping.csv" type="Int16" />
+            <Field name="meta_data_id" source="File: C:\Users\Ewen Witte\Downloads\meta_data+timestamp.csv" type="Byte" />
+            <Field name="IoT-HW-ID:" size="5" source="File: C:\Users\Ewen Witte\Downloads\meta_data+timestamp.csv" type="String" />
+            <Field name="Raum betreten:" size="4" source="File: C:\Users\Ewen Witte\Downloads\meta_data+timestamp.csv" type="String" />
+            <Field name="Personen imRaum:" source="File: C:\Users\Ewen Witte\Downloads\meta_data+timestamp.csv" type="Byte" />
+            <Field name="Fenster geöffnet:" size="4" source="File: C:\Users\Ewen Witte\Downloads\meta_data+timestamp.csv" type="String" />
+            <Field name="Tür geöffnet:" size="4" source="File: C:\Users\Ewen Witte\Downloads\meta_data+timestamp.csv" type="String" />
+            <Field name="Heizung an:" size="4" source="File: C:\Users\Ewen Witte\Downloads\meta_data+timestamp.csv" type="String" />
+            <Field name="Fernseher an:" size="4" source="File: C:\Users\Ewen Witte\Downloads\meta_data+timestamp.csv" type="String" />
+            <Field name="PC an:" size="4" source="File: C:\Users\Ewen Witte\Downloads\meta_data+timestamp.csv" type="String" />
+            <Field name="timestamp" source="File: C:\Users\Ewen Witte\Downloads\meta_data+timestamp.csv" type="Int32" />
+            <Field name="raw_data_id" source="File: C:\Users\Ewen Witte\Downloads\raw_data+timestamp.csv" type="Int16" />
+            <Field name="Right_IoT-HW-ID:" size="5" source="File: C:\Users\Ewen Witte\Downloads\raw_data+timestamp.csv" type="String" />
+            <Field name="Temperature:" source="File: C:\Users\Ewen Witte\Downloads\raw_data+timestamp.csv" type="Double" />
+            <Field name="Humidity:" source="File: C:\Users\Ewen Witte\Downloads\raw_data+timestamp.csv" type="Double" />
+            <Field name="Right_timestamp" source="File: C:\Users\Ewen Witte\Downloads\raw_data+timestamp.csv" type="Int32" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+        <Position x="990" y="270" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SortInfo locale="0">
+            <Field field="raw_data_id" order="Ascending" />
+          </SortInfo>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>raw_data_id - Ascending</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="1110" y="270" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="0">C:\Users\Ewen Witte\Downloads\smarthome_dataset.csv</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <LineEndStyle>CRLF</LineEndStyle>
+            <Delimeter>,</Delimeter>
+            <ForceQuotes>False</ForceQuotes>
+            <HeaderRow>True</HeaderRow>
+            <CodePage>65001</CodePage>
+            <WriteBOM>True</WriteBOM>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>smarthome_dataset.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="4" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="4" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="6" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Join" />
+      <Destination ToolID="6" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Join" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>join_meta_with_raw_data_via_mapping_table</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
